@@ -1,0 +1,84 @@
+.body-color {
+  background-color: #F5F5F5
+  position: relative;
+  margin-left: 105px;
+}
+.elephant-style {
+  width: 60px;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-bottom: 200px;
+  }
+.three-pix {
+  width: 65px;
+  margin-left: 20px;
+}
+.box-left {
+  height: 100%;
+  width: 100px;
+  border: 5px solid green;
+  margin-top: 0;
+  margin-left: 0;
+  top: 0;
+  left: 0;
+  margin-right: 10px;
+  position: fixed;
+  z-index: 1;
+  overflow-x:hidden;
+}
+* {
+  font-family: 'Biryani', sans-serif;
+}
+.two-big-boxes {
+  display:inline-block;
+  background-color: #F5F5F5
+}
+
+.heading-box {
+  height: 65px;
+  width: 375px;
+  border: 5px solid red;
+  padding-left: 30px;
+}
+.welcome-box {
+  height: 85px;
+  width: 375px;
+  border: 5px solid blue;
+  padding-left: 30px;
+  margin-top: 25px;
+}
+.three-box-line {
+  display: inline-block;
+  border: 5px solid yellow;
+  height: 85px;
+  width: 120px;
+  padding-left: 30px;
+  }
+.left-body {
+  border: 5px solid purple;
+  width: 510px;
+  position: relative;
+  display: inline-block;
+  }
+.right-body{
+  border: 5px solid black;
+  width:120px;
+  display: inline-block;
+}
+.smaller-pix{
+  height: 40px;
+}
+.short-lines {
+  display: inline-block;
+  background-color: white;
+}
+.center-word-space{
+  margin-right: 200px;
+  margin-left: 60px;
+}
+.account-row {
+  background-color: white;
+}
+.account-header {
+  display: inline-block;
+}

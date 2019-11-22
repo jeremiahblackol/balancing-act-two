@@ -3,55 +3,65 @@
 <html>
   <head>
     <title>Balancing Act</title>
+    <link href="https://fonts.googleapis.com/css?family=Biryani&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" type = "text/css" href = "styles.css">
   </head>
-  <body>
-    <nav>
-      <!-- <img src="elephant"> -->
-      <!-- <img src="dashboard"> -->
-      <!-- <img src="transactions"> -->
-      <!-- <img src="profile"> -->
+  <body class="body-color">
+    <nav class="box-left">
+      <img class = "elephant-style" src="assets/elephant.svg">
+      <img class="three-pix" src="assets/dashboard.svg">
+      <img class="three-pix" src="assets/transactions.svg">
+      <img class="three-pix" src="assets/profile.svg">
     </nav>
-    <main>
-      <header>
+    <main class= "two-big-boxes">
+      <div class = "left-body">
+      <header class = "heading-box">
         <h1> Balancing Act </h1>
       </header>
-      <section>
+      <section class = "welcome-box">
         <p> Welcome, Oscar! </p>
       </section>
-      <section>
-        <h3> Income </h3>
-      </section>
-      <section>
-        <h3> Expenses </h3>
-      </section>
-      <section>
-        <h3> Credit Score</h3>
-      </section>
+
+        <section class="three-box-line">
+          <h3> Income </h3>
+        </section>
+        <section class="three-box-line">
+          <h3> Expenses </h3>
+        </section>
+        <section class="three-box-line">
+          <h3> Credit Score</h3>
+        </section>
+
       <header>
-        <h2> Accounts </h2>
+        <h2 class="account-header"> Accounts </h2>
+        <input type= "button" name="submit" value="MANAGE ACCOUNTS">
       </header>
-      <input type= "button" name="submit" value="MANAGE ACCOUNTS">
-      <section>
-        <!-- <img src="checking"> -->
-        <p> Wells Fargo</p>
+      <section class="account-row">
+        <img class="short-lines smaller-pix"src="assets/checking.svg">
+        <p class="center-word-space short-lines"> Wells Fargo</p>
+        <p class = "short-lines"> Checking </p>
       </section>
       <section>
-        <!-- <img src="savings"> -->
+        <img src="asstes/savings.svg">
         <p> Wells Fargo </p>
       </section>
       <section>
-        <!-- <img src="credit card"> -->
+        <img src="assets/credit-card.svg">
         <p> Amazon Credit </p>
       </section>
       <section>
-        <!-- <img src="credit card"> -->
+        <img src="assets/credit-card.svg">
         <p> Southwest Credit </p>
       </section>
-      <article class="">
+      <section class="">
+    </div>
+    <div class="right-body">
+      <section>
         <p> Recent Transactions </p>
         <input type= "button" name="submit" value="NEW TRANSACTION">
         <!-- Add 4 Columns -->
-      </article>
+      </section>
+    </div>
       </main>
 
   </body>
