@@ -16,7 +16,7 @@
 .box-left {
   height: 100%;
   width: 100px;
-  border: 5px solid green;
+  /* border: 5px solid green; */
   margin-top: 0;
   margin-left: 0;
   top: 0;
@@ -37,26 +37,27 @@
 .heading-box {
   height: 65px;
   width: 375px;
-  border: 5px solid red;
+  /* border: 5px solid red; */
   padding-left: 30px;
 }
 .welcome-box {
   height: 85px;
-  width: 375px;
-  border: 5px solid blue;
+  width: 550px;
   padding-left: 30px;
+  margin-left: 30px;
   margin-top: 25px;
+  background-image: linear-gradient(to right, #8ED1DC , #E3F4F6);
 }
 .three-box-line {
   display: inline-block;
-  border: 5px solid yellow;
+  /* border: 5px solid yellow; */
   height: 85px;
   width: 120px;
   padding-left: 30px;
   }
 .left-body {
-  border: 5px solid purple;
-  width: 510px;
+  /* border: 5px solid purple; */
+  width: 540px;
   position: relative;
   display: inline-block;
   }
@@ -67,6 +68,8 @@
 }
 .smaller-pix{
   height: 40px;
+  padding-left: 10px;
+  padding-top: 15px;
 }
 .short-lines {
   display: inline-block;
@@ -75,10 +78,20 @@
 .center-word-space{
   margin-right: 200px;
   margin-left: 60px;
+  padding-bottom: 10px;
 }
 .account-row {
   background-color: white;
+  margin-left: 30px;
+  margin-bottom: 10px;
 }
 .account-header {
   display: inline-block;
+  margin-left: 30px;
+}
+.income-margin {
+  margin-left: 30px;
+}
+.expenses-margin {
+  margin-left: 15px;
 }
