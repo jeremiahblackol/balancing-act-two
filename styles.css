@@ -4,14 +4,14 @@
   margin-left: 105px;
 }
 .elephant-style {
-  width: 60px;
-  padding-left: 20px;
+  width: 80px;
+  padding-left: 10px;
   padding-top: 20px;
   margin-bottom: 200px;
   }
 .three-pix {
-  width: 65px;
-  margin-left: 20px;
+  width: 45px;
+  margin-left: 30px;
 }
 .box-left {
   height: 100%;
@@ -46,8 +46,9 @@
   width: 550px;
   padding-left: 30px;
   margin-left: 30px;
-  margin-top: 25px;
+  margin-top: 10px;
   background-image: linear-gradient(to right, #8ED1DC , #E3F4F6);
+  margin-bottom: 15px
 }
 .three-box-line {
   display: inline-block;
@@ -77,6 +78,7 @@
   display: inline-block;
   background-color: white;
   padding-left: 15px;
+  line-height: 20px;
 }
 .center-word-space{
   margin-right: 200px;
@@ -88,8 +90,8 @@
   background-color: white;
   margin-left: 30px;
   margin-bottom: 10px;
-  height: 60px;
-  margin-bottom: 25px;
+  height: 50px;
+  margin-bottom: 15px;
   padding-bottom: 10px;
 }
 .account-header {
@@ -109,10 +111,22 @@
   float: left;
   /* width: 25%; */
   padding: 10px;
-  height: 300px;
+  height: 505px;
 }
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+
+.transaction-table {
+    border-collapse: separate;
+    border-spacing: 25px;
+}
+.row {
+  width: 100%;
+  border: 5px solid black
+}
+#close-button {
+    height: 15px;
+    padding-left: 380px;
+}
+p {
+  display: inline-block;
+
 }
